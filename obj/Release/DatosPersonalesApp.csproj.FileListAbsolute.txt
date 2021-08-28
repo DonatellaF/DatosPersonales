@@ -1,0 +1,7 @@
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\bin\Release\DatosPersonalesApp.exe.config
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\bin\Release\DatosPersonalesApp.exe
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\bin\Release\DatosPersonalesApp.pdb
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\obj\Release\DatosPersonalesApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\obj\Release\DatosPersonalesApp.exe
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\obj\Release\DatosPersonalesApp.pdb
+C:\Users\Usuario\Documents\PruebasDonatella\DatosPersonalesApp\obj\Release\DatosPersonalesApp.csproj.AssemblyReference.cache
