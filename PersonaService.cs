@@ -7,12 +7,17 @@ using System.Threading.Tasks;
 namespace DatosPersonalesApp
 {
     public class PersonaService
-    {/// <summary>
+    {
+    /// <summary>
     /// Devuelve una persona con nombre y apellido.
     /// </summary>
     /// <returns></returns>
         public Persona GetDatosPersonales()
         {
+            //TODO crear una instancia de personaRepositorio
+
+            var personaRepositorio = new PersonaRepositorio();
+
             //TODO apellido nulo, nombre nulo.
             //TODO solo letras.
             var persona = new Persona();
@@ -21,6 +26,11 @@ namespace DatosPersonalesApp
             persona.Nombre = Console.ReadLine();
             Console.WriteLine("Apellido:");
             persona.Apellido = Console.ReadLine();
+            persona.FechaNaciciento = GetFechaNacimiento();
+            //TODO llamar al metodo InsertarPersona y enviarle como parametros el objeto persona
+            
+            personaRepositorio.InsertarPersona(persona);
+            
             return persona;
         }
         /// <summary>
@@ -50,6 +60,10 @@ namespace DatosPersonalesApp
             string respuesta = Console.ReadLine().ToUpper();
 
             return respuesta == "S";
+        }
+        public static List<Persona> GetAll()
+        {
+
         }
     }
 }

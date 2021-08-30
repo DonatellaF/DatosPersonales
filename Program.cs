@@ -11,13 +11,11 @@ namespace DatosPersonalesApp
         public static void Main()
         {
             var personaService = new PersonaService();
-
             
             Persona persona = personaService.GetDatosPersonales();
             Console.WriteLine($"Bienvenido {persona.Nombre}");
 
-            persona.FechaNaciciento = personaService.GetFechaNacimiento();
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
